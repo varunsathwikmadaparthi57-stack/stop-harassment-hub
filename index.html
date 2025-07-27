@@ -1,24 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop the Harassment - Digital Safety & Awareness</title>
-    <meta name="description" content="Protect yourself from fake loan apps and digital harassment. Learn to identify dangerous apps and get help." />
-    <meta name="author" content="Stop the Harassment Team" />
+    <meta name="description" content="Protect yourself from fake loan apps and digital harassment. Learn to identify dangerous apps and get help.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Stop the Harassment</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="book-slot.html" class="nav-link">Book Slot</a>
+                </li>
+                <li class="nav-item">
+                    <a href="emergency.html" class="nav-link">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-    <meta property="og:title" content="Stop the Harassment - Digital Safety & Awareness" />
-    <meta property="og:description" content="Protect yourself from fake loan apps and digital harassment. Learn to identify dangerous apps and get help." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Hero Section with Image Carousel -->
+    <section class="hero">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="slide active">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=400&fit=crop" alt="Digital harassment awareness">
+                    <div class="slide-content">
+                        <h3>Digital Harassment Awareness</h3>
+                        <p>Protect yourself from harmful apps and online threats</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=400&fit=crop" alt="Cybercrime prevention">
+                    <div class="slide-content">
+                        <h3>Cybercrime Prevention</h3>
+                        <p>Learn to identify and avoid fake loan apps</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop" alt="Financial safety">
+                    <div class="slide-content">
+                        <h3>Financial Safety</h3>
+                        <p>Get help and support when you need it most</p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next-btn" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- Main Action Buttons -->
+    <section class="action-buttons">
+        <div class="container">
+            <div class="buttons-grid">
+                <a href="beating-apps.html" class="action-btn beating-apps">
+                    <h3>Beating Apps</h3>
+                    <p>Learn about dangerous harassment apps</p>
+                </a>
+                <a href="fake-loan-apps.html" class="action-btn fake-loans">
+                    <h3>Fake Loan Apps</h3>
+                    <p>Identify and avoid fraudulent lending apps</p>
+                </a>
+                <a href="loan-apps.html" class="action-btn loan-apps">
+                    <h3>Legitimate Loan Apps</h3>
+                    <p>Find genuine and safe lending platforms</p>
+                </a>
+                <a href="emergency.html" class="action-btn emergency">
+                    <h3>Emergency Help</h3>
+                    <p>Get immediate assistance and support</p>
+                </a>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h3>Rajesh Kumar</h3>
+                    <p>Digital Safety Expert</p>
+                    <p>📧 rajesh@stopharassment.org</p>
+                    <p>📱 +91 9876543210</p>
+                </div>
+                <div class="team-member">
+                    <h3>Priya Sharma</h3>
+                    <p>Cybercrime Specialist</p>
+                    <p>📧 priya@stopharassment.org</p>
+                    <p>📱 +91 9876543211</p>
+                </div>
+                <div class="team-member">
+                    <h3>Amit Patel</h3>
+                    <p>Legal Advisor</p>
+                    <p>📧 amit@stopharassment.org</p>
+                    <p>📱 +91 9876543212</p>
+                </div>
+                <div class="team-member">
+                    <h3>Sneha Reddy</h3>
+                    <p>Community Outreach</p>
+                    <p>📧 sneha@stopharassment.org</p>
+                    <p>📱 +91 9876543213</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Stop the Harassment. All rights reserved.</p>
+            <p>Emergency Helpline: 1930 (Cyber Crime) | 181 (Women Helpline)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>

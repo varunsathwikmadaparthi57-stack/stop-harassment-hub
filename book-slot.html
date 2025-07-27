@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Awareness Slot - Stop the Harassment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Stop the Harassment</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="book-slot.html" class="nav-link">Book Slot</a>
+                </li>
+                <li class="nav-item">
+                    <a href="emergency.html" class="nav-link">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Book Awareness Session</h1>
+            <p>Schedule a digital safety awareness campaign for your community</p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="container">
+            
+            <!-- Session Types -->
+            <h2 style="color: #2c3e50; margin-bottom: 20px;">📋 Available Session Types</h2>
+            
+            <div class="contact-grid" style="margin-bottom: 40px;">
+                <div class="app-card safe">
+                    <h3>🎓 College/School Sessions</h3>
+                    <p><strong>Duration:</strong> 2-3 hours</p>
+                    <p><strong>Audience:</strong> Students (200-500)</p>
+                    <p><strong>Topics:</strong> Digital safety, fake apps identification, financial literacy</p>
+                    <p><strong>Cost:</strong> Free</p>
+                </div>
+
+                <div class="app-card safe">
+                    <h3>🏢 Corporate Workshops</h3>
+                    <p><strong>Duration:</strong> 1-2 hours</p>
+                    <p><strong>Audience:</strong> Employees (50-300)</p>
+                    <p><strong>Topics:</strong> Cyber security, data protection, harassment prevention</p>
+                    <p><strong>Cost:</strong> ₹5,000-₹15,000</p>
+                </div>
+
+                <div class="app-card safe">
+                    <h3>🏘️ Community Events</h3>
+                    <p><strong>Duration:</strong> 3-4 hours</p>
+                    <p><strong>Audience:</strong> General public (100-1000)</p>
+                    <p><strong>Topics:</strong> Comprehensive digital safety, legal rights</p>
+                    <p><strong>Cost:</strong> Free (Sponsored)</p>
+                </div>
+
+                <div class="app-card safe">
+                    <h3>👥 Support Groups</h3>
+                    <p><strong>Duration:</strong> 1 hour</p>
+                    <p><strong>Audience:</strong> Harassment victims (10-50)</p>
+                    <p><strong>Topics:</strong> Recovery, legal aid, mental health support</p>
+                    <p><strong>Cost:</strong> Free</p>
+                </div>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="form-container">
+                <h2 style="color: #2c3e50; margin-bottom: 20px; text-align: center;">📝 Book Your Session</h2>
+                
+                <form id="booking-form">
+                    <div class="form-group">
+                        <label for="session-type">Session Type *</label>
+                        <select name="session-type" id="session-type" required>
+                            <option value="">Select Session Type</option>
+                            <option value="college">College/School Session</option>
+                            <option value="corporate">Corporate Workshop</option>
+                            <option value="community">Community Event</option>
+                            <option value="support">Support Group</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" name="name" id="name" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" name="email" id="email" required placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" name="phone" id="phone" required placeholder="10-digit mobile number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="organization">Organization/Institution Name *</label>
+                        <input type="text" name="organization" id="organization" required placeholder="College/Company/Community Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="designation">Your Designation/Role</label>
+                        <input type="text" name="designation" id="designation" placeholder="Principal/HR Manager/Community Leader">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="state">State *</label>
+                        <select name="state" id="state" required>
+                            <option value="">Select State</option>
+                            <option value="andhra-pradesh">Andhra Pradesh</option>
+                            <option value="arunachal-pradesh">Arunachal Pradesh</option>
+                            <option value="assam">Assam</option>
+                            <option value="bihar">Bihar</option>
+                            <option value="chhattisgarh">Chhattisgarh</option>
+                            <option value="goa">Goa</option>
+                            <option value="gujarat">Gujarat</option>
+                            <option value="haryana">Haryana</option>
+                            <option value="himachal-pradesh">Himachal Pradesh</option>
+                            <option value="jharkhand">Jharkhand</option>
+                            <option value="karnataka">Karnataka</option>
+                            <option value="kerala">Kerala</option>
+                            <option value="madhya-pradesh">Madhya Pradesh</option>
+                            <option value="maharashtra">Maharashtra</option>
+                            <option value="manipur">Manipur</option>
+                            <option value="meghalaya">Meghalaya</option>
+                            <option value="mizoram">Mizoram</option>
+                            <option value="nagaland">Nagaland</option>
+                            <option value="odisha">Odisha</option>
+                            <option value="punjab">Punjab</option>
+                            <option value="rajasthan">Rajasthan</option>
+                            <option value="sikkim">Sikkim</option>
+                            <option value="tamil-nadu">Tamil Nadu</option>
+                            <option value="telangana">Telangana</option>
+                            <option value="tripura">Tripura</option>
+                            <option value="uttar-pradesh">Uttar Pradesh</option>
+                            <option value="uttarakhand">Uttarakhand</option>
+                            <option value="west-bengal">West Bengal</option>
+                            <option value="delhi">Delhi</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City *</label>
+                        <input type="text" name="city" id="city" required placeholder="Enter your city">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Full Address *</label>
+                        <textarea name="address" id="address" required placeholder="Complete address where session will be conducted"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="expected-audience">Expected Audience Size *</label>
+                        <select name="expected-audience" id="expected-audience" required>
+                            <option value="">Select Audience Size</option>
+                            <option value="10-50">10-50 people</option>
+                            <option value="51-100">51-100 people</option>
+                            <option value="101-200">101-200 people</option>
+                            <option value="201-500">201-500 people</option>
+                            <option value="500+">500+ people</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="preferred-date">Preferred Date</label>
+                        <input type="date" name="preferred-date" id="preferred-date">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="preferred-time">Preferred Time</label>
+                        <select name="preferred-time" id="preferred-time">
+                            <option value="">Select Time Slot</option>
+                            <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                            <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
+                            <option value="evening">Evening (4:00 PM - 7:00 PM)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="specific-topics">Specific Topics of Interest</label>
+                        <textarea name="specific-topics" id="specific-topics" placeholder="Any specific areas you'd like us to focus on? (Optional)"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="facilities">Available Facilities</label>
+                        <textarea name="facilities" id="facilities" placeholder="Projector, microphone, seating arrangement, etc."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="additional-info">Additional Information</label>
+                        <textarea name="additional-info" id="additional-info" placeholder="Any other information that might help us prepare better"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Booking Request</button>
+                </form>
+            </div>
+
+            <!-- What to Expect -->
+            <div style="margin-top: 40px;">
+                <h2 style="color: #27ae60; margin-bottom: 20px;">✅ What to Expect</h2>
+                
+                <div class="app-card safe">
+                    <h3>📞 Step 1: Initial Contact</h3>
+                    <p>Our team will contact you within 24-48 hours to discuss your requirements and confirm availability.</p>
+                </div>
+
+                <div class="app-card safe">
+                    <h3>📋 Step 2: Planning & Preparation</h3>
+                    <p>We'll work with you to customize the session content based on your audience and specific needs.</p>
+                </div>
+
+                <div class="app-card safe">
+                    <h3>📅 Step 3: Session Confirmation</h3>
+                    <p>Date, time, and logistics will be finalized. We'll provide you with a detailed session plan.</p>
+                </div>
+
+                <div class="app-card safe">
+                    <h3>🎯 Step 4: Session Delivery</h3>
+                    <p>Our experts will conduct an engaging, interactive session with practical demonstrations and Q&A.</p>
+                </div>
+
+                <div class="app-card safe">
+                    <h3>📊 Step 5: Follow-up Support</h3>
+                    <p>We provide digital resources, helpline numbers, and ongoing support for participants.</p>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="emergency-contact" style="margin-top: 40px;">
+                <h3>📱 Need to Discuss Your Requirements?</h3>
+                <p>Contact our awareness team directly:</p>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h4>Program Coordinator</h4>
+                        <p>📧 sessions@stopharassment.org</p>
+                        <p>📱 +91 9876543215</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Corporate Partnerships</h4>
+                        <p>📧 corporate@stopharassment.org</p>
+                        <p>📱 +91 9876543216</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Educational Outreach</h4>
+                        <p>📧 education@stopharassment.org</p>
+                        <p>📱 +91 9876543217</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Community Programs</h4>
+                        <p>📧 community@stopharassment.org</p>
+                        <p>📱 +91 9876543218</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ -->
+            <div style="margin-top: 40px;">
+                <h2 style="color: #3498db; margin-bottom: 20px;">❓ Frequently Asked Questions</h2>
+                
+                <div class="app-card">
+                    <h3>Q: Is there any cost for awareness sessions?</h3>
+                    <p><strong>A:</strong> Educational institutions and community events are completely free. Corporate workshops have a nominal fee to cover travel and material costs.</p>
+                </div>
+
+                <div class="app-card">
+                    <h3>Q: How far in advance should I book?</h3>
+                    <p><strong>A:</strong> We recommend booking at least 2-3 weeks in advance to ensure availability and proper preparation.</p>
+                </div>
+
+                <div class="app-card">
+                    <h3>Q: Do you provide certificates?</h3>
+                    <p><strong>A:</strong> Yes, we provide digital safety awareness certificates to all participants.</p>
+                </div>
+
+                <div class="app-card">
+                    <h3>Q: Can sessions be conducted online?</h3>
+                    <p><strong>A:</strong> Yes, we offer both in-person and virtual sessions via Zoom/Google Meet.</p>
+                </div>
+
+                <div class="app-card">
+                    <h3>Q: What languages are available?</h3>
+                    <p><strong>A:</strong> Sessions are available in English, Hindi, and major regional languages based on location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Stop the Harassment. All rights reserved.</p>
+            <p>Book Sessions: sessions@stopharassment.org | +91 9876543215</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
